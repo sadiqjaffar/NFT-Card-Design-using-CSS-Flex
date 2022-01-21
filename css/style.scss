@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    padding: 5em;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    
+
+    .main{
+
+        background-color: hsl(216, 50%, 16%);
+        width: 300px;
+        height: 500px;
+        border-radius: 10px;
+        align-self: center;
+        
+
+        .same-row{
+            display: inline-block;
+        }
+
+        h3{
+            padding-left: 1em;
+            font-family: 'Outfit', sans-serif;
+            color: hsl(0, 0%, 100%);
+            
+        }
+        p{
+            padding: 1em;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+            color:  hsl(215, 51%, 70%);
+            
+
+        }
+
+        
+        .etext{
+            
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            color: hsl(178, 100%, 50%);
+        }
+        img.etherium{
+            vertical-align: text-top;
+            padding-right: 5px;
+        }
+
+        .line{
+            width: 268px;
+            height: 1px;
+            margin-left: 1em;
+            background-color: hsl(215, 32%, 27%);
+        }
+
+        .profile{
+            display: inline-block;
+            width: 35px;
+            border: 1px solid white;
+            border-radius: 50% 50% 50% 50%;
+            overflow: hidden;
+            vertical-align:middle;
+        }
+
+        .creator{
+            font-family: 'Outfit';
+            font-size: 14px;
+            color: hsl(215, 51%, 70%);
+            font-weight: 400;
+            margin-left: 10px;
+        }
+        .creator-2{
+            font-family: 'Outfit';
+            font-weight: 400;
+            color: hsl(0, 0%, 100%);
+
+
+        }
+        
+    }
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+
+    img{
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+    }
+
+}

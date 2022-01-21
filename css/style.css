@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  color: white;
+  padding: 5em;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .main {
+  background-color: #14253d;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card .main .same-row {
+  display: inline-block;
+}
+
+.card .main h3 {
+  padding-left: 1em;
+  font-family: 'Outfit', sans-serif;
+  color: white;
+}
+
+.card .main p {
+  padding: 1em;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  color: #8bacda;
+}
+
+.card .main .etext {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: #00fff7;
+}
+
+.card .main img.etherium {
+  vertical-align: text-top;
+  padding-right: 5px;
+}
+
+.card .main .line {
+  width: 268px;
+  height: 1px;
+  margin-left: 1em;
+  background-color: #2f415b;
+}
+
+.card .main .profile {
+  display: inline-block;
+  width: 35px;
+  border: 1px solid white;
+  border-radius: 50% 50% 50% 50%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.card .main .creator {
+  font-family: 'Outfit';
+  font-size: 14px;
+  color: #8bacda;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.card .main .creator-2 {
+  font-family: 'Outfit';
+  font-weight: 400;
+  color: white;
+}
+
+.pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+
+.pic img {
+  border-radius: 10px;
+  width: 300px;
+  height: 250px;
+}
+/*# sourceMappingURL=style.css.map */
